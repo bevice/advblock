@@ -4,7 +4,7 @@
 
 [Read more in Russian](http://igoradamenko.com/blog/all/advblock/)
 
-TL;DR: 'cause consulting filters suck.
+TL;DR: 'cause consulting scripts suck.
 
 ## Installation
 
