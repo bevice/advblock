@@ -1,0 +1,29 @@
+[Adblock Plus 2.0]
+! Checksum: 8U808JwQ4SjbvQ5FCxTdpg
+! Version: 201510221619
+! Expires: 5 days
+! Title: Adviser blocker
+! Author: Igor Adamenko | http://igoradamenko.com
+! Homepage: http://igoradamenko.com/blog/all/advblock/
+! Contact: advblock@igoradamenko.com
+
+! StreamWood
+||streamwood.ru^
+
+! Callbackhunter
+||callbackhunter.com^
+
+! Jivo
+||jivosite.com^
+
+! UpToCall
+||uptocall.com^
+
+! LP Tracker
+||lptracker.ru^
+
+! Leadia.ru
+||leadiacloud.com^
+
+! SmartCallBack
+||smartcallback.ru^
