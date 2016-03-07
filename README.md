@@ -1,4 +1,4 @@
-# AdvBlock
+# Adviser blocker
 
 ## Why?
 
