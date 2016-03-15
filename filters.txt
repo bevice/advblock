@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: FBCgAvr9fyFiioqpfuPetw
+! Checksum: i/VQjBZGkmu8JFsMw11kxg
 ! Version: 201603072015
 ! Expires: 5 days
 ! Title: Adviser blocker
@@ -31,3 +31,6 @@
 
 ! Перезвоним
 ||xn--b1afaigyfhel.xn--p1ai^
+
+! Pozvonim.com
+||pozvonim.com^
