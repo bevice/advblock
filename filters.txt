@@ -1,11 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: i/VQjBZGkmu8JFsMw11kxg
-! Version: 201603072015
+! Checksum: bPXG+E9L1ChkUsp9oJlhWQ
+! Version: 201604031201
 ! Expires: 5 days
 ! Title: Adviser blocker
 ! Author: Igor Adamenko | http://igoradamenko.com
 ! Homepage: https://github.com/igoradamenko/advblock
-! Redirect: https://raw.githubusercontent.com/igoradamenko/advblock/master/filters.txt
 ! Contact: advblock@igoradamenko.com
 
 ! StreamWood
@@ -34,3 +33,6 @@
 
 ! Pozvonim.com
 ||pozvonim.com^
+
+! Venyoo
+||venyoo.ru
