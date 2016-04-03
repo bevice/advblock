@@ -12,11 +12,13 @@ Just add [this link](https://raw.githubusercontent.com/igoradamenko/advblock/mas
 
 ## Want to improve?
 
-If you want to add a new script to block rules, you have to ways. Open issue with link to site which uses the script or fork this project and add a rule manually:
+If you want to add a new script to block rules, you have two ways. Open issue with link to site which uses the maddening script or fork this project and add a rule manually.
+
+### How to add a new rule?
 
 1. Fork project and clone it to your machine
 2. Add the new rule to `filtersUnsigned.txt` ([syntax tutorial](https://adblockplus.org/filters))
-3. Run these in the terminal (you must have python v.2.7):
+3. Run these commands in the terminal (you must have python v.2.7):
 
 ```bash
 cd /path/to/project
