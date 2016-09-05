@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: NyeOql/u4HntZnefL+ou9w
+! Checksum: 3QY60RPW1Id6eTsL9CFlWA
 ! Version: 201604081211
 ! Expires: 5 days
 ! Title: Adviser blocker
@@ -24,6 +24,7 @@
 
 ! Leadia.ru
 ||leadiacloud.com^
+||cloudleadia.com^
 
 ! SmartCallBack
 ||smartcallback.ru^

@@ -24,6 +24,7 @@
 
 ! Leadia.ru
 ||leadiacloud.com^
+||cloudleadia.com^
 
 ! SmartCallBack
 ||smartcallback.ru^
