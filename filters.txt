@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: 3QY60RPW1Id6eTsL9CFlWA
-! Version: 201604081211
+! Checksum: FmgIDMUPqoQvSG8Vw93Qyg
+! Version: 201611200118
 ! Expires: 5 days
 ! Title: Adviser blocker
 ! Author: Igor Adamenko | http://igoradamenko.com
@@ -40,3 +40,6 @@
 
 ! FPIAR
 ||fpiar.ru^
+
+! Onicon
+||onicon.ru^
