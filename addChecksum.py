@@ -62,11 +62,12 @@
 
 
 
-import sys, re, codecs, hashlib, base64
+import sys, re, codecs, hashlib, base64, datetime
 
 
 
 checksumRegexp = re.compile(r'^\s*!\s*checksum[\s\-:]+([\w\+\/=]+).*\n', re.I | re.M)
+versionRegexp = re.compile(r'^\s*!\s*version[\s\-:]+([\w\+\/=]+).*\n', re.I | re.M)
 
 
 
@@ -80,6 +81,16 @@ def addChecksum(data):
 
   return data
 
+
+def updateVersion(data):
+
+  version = datetime.datetime.now().strftime('%Y%m%d%H%M')
+
+  data = re.sub(versionRegexp, '', data)
+
+  data = re.sub(r'(\r?\n)', r'\1! Version: %s\1' % version, data, 1)
+
+  return data
 
 
 def calculateChecksum(data):
@@ -128,7 +139,8 @@ if __name__ == '__main__':
 
 
 
-  data = addChecksum(readStream(sys.stdin))
+  data = updateVersion(readStream(sys.stdin))
+  data = addChecksum(data)
 
   sys.stdout.write(data.encode('utf-8'))
 
