@@ -41,5 +41,5 @@
 ! FPIAR
 ||fpiar.ru^
 
-! Onicon
-||onicon.ru^
+! Me-Talk
+||me-talk.ru^
