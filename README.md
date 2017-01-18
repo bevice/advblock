@@ -18,11 +18,11 @@ If you want to add a new script to block rules, you have two ways. Open issue wi
 
 1. Fork project and clone it to your machine
 2. Add the new rule to `filtersUnsigned.txt` ([syntax tutorial](https://adblockplus.org/filters))
-3. Run these commands in the terminal (you must have python v.2.7):
+3. Run these commands in the terminal (you must have python v2.7):
 
 ```bash
 cd /path/to/project
-python addChecksum.py < filtersUnsigned.txt > filters.txt && python validateChecksum.py < filters.txt
+./regenerate.sh
 ```
 
 Output must be `Checksum is valid`. If it so then send a PR.
